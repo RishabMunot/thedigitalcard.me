@@ -1,0 +1,9 @@
+body{
+    background-color: rgba(0, 0, 0, 0.897);
+}
+
+.landing {
+    flex: 0 0 80%;
+    max-width: 80%;
+}
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/main-input.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-firestore.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-analytics.js"></script>
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCk_Yy_IMdswJNJhX1ZsSxQj3qgqCkA_zc",
+        authDomain: "thedigitalcard-90a8b.firebaseapp.com",
+        databaseURL: "https://thedigitalcard-90a8b.firebaseio.com",
+        projectId: "thedigitalcard-90a8b",
+        storageBucket: "thedigitalcard-90a8b.appspot.com",
+        messagingSenderId: "699765759974",
+        appId: "1:699765759974:web:bea7ef8fb20d81afebc027",
+        measurementId: "G-CE09JSS88V"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <!-- AUTH -->
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css"
+    />
+    
+  </head>
+  <body>
+    <div class="landing">
+      <h1 class="Title">Make your visiting card digital!</h1>
+      <div class="Input">
+        <input
+          type="text"
+          id="input"
+          class="Input-text"
+          placeholder="Search your unique name..."
+        />
+      </div>
+
+      <a class="button-search">Search</a>
+
+      <p>this will be mentioned as thedigitalcard.me/example_123</p>
+    </div>
+    <div></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
