@@ -1,0 +1,114 @@
+html, body {
+    margin: 0; height: 100%; overflow-x: hidden;
+    background-color: #eeeeee;
+}
+
+
+.name{
+    font-family: 'Great Vibes', cursive;
+    font-size: 5vw;
+    margin: 10vw 10vw 5vw;
+}
+
+h1{
+    margin: 0 0;
+}
+
+.design{
+    position: relative;
+    height: 150vw;
+    padding: 0;
+}
+
+.shapes{
+    position: absolute;
+}   
+
+.profile-image{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    object-fit: cover;
+    left: 25vw;     
+}
+
+.pink-triangle{
+    transform: rotate(90deg);
+    width: 150vw;
+    left: -15vw;
+    top: 12vw;
+}
+.gray-triangle{
+    transform: rotate(-90deg);
+    right: -15vw;
+    width: 30vw;
+    bottom: 38vw;
+}
+.blue-triangle{
+    transform: rotate(90deg);
+    width: 70vw;
+    bottom: 0.5vw;
+    left: -13vw;
+}
+
+
+.contacts{
+    position: absolute;
+    z-index: 5;
+    font-family: 'Montserrat', sans-serif;
+    top: 65vw;
+    right: 10vw;
+    width: 35vw;
+}
+
+.heading{
+    text-transform: uppercase;
+    font-size: 5vw;
+    margin: 0 0 3vw;
+}
+
+.phone>p{
+    margin: 0;
+}
+
+.phone{
+    font-size: 3vw;
+    margin: 0;
+    color: black;
+}
+
+.phone1>p{
+    margin-top: 2vw;
+}
+
+.social{
+    z-index: 5;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    width: 35vw;
+    top: 35vw;
+    left: 10vw;
+}
+
+.social-handle{
+    width: 7.5vw;
+    margin: 0.5vw;
+}
+
+.hello{
+    position: absolute;
+    z-index: 5;
+    bottom: 0vw;
+    right: 1vw;
+    width: 40vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p.hello-text{
+    font-size: 3vw;
+    text-transform: none;
+    font-weight: 400;
+}
+
