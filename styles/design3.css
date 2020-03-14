@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 10vw;
+}
+
+main{
+    position: relative;
+}
+
+.img{
+    height: 60vw;
+    width: 60vw;
+    position: absolute;
+    background-color: aquamarine;
+    right: 10vw;
+}
+.profile{
+    height: 60vw;
+    width: 60vw;
+    position: absolute;
+    background-color: #eee;
+    font-family: 'Open Sans',sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1vw;
+    top: 30vw;
+}
+
+.profile>hr{
+    background-color: black;
+    border: 0;
+    height: 3vw;
+    width: 3vw;
+    position: absolute;
+    margin: 0;
+}
+
+.name{
+    position: absolute;
+    bottom: 9vw;
+    left: 5vw;
+    font-size: 5vw;
+    margin: 0em;
+}
+
+.job-title{
+    position: absolute;
+    bottom: 5vw;
+    margin: 0;
+    left: 5vw;
+    font-size: 2vw;
+}
+
+.content{
+    position: absolute;
+    font-family: 'Open Sans',sans-serif;
+    top: 90vw;
+}
+
+.heading{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+.text{
+    margin: 0;
+    font-size: 3vw;
+    margin-right: 10vw;
+}
+
+.phone>p{
+    margin: 0;
+}
+
+.phone{
+    font-size: 3vw;
+    margin: 0;
+    color: black;
+}
+
+.phone1>p{
+    margin-top: 2vw;
+}
+
+.phone-icon{
+    height: 2.5vw;
+    display: inline-block;
+    margin-right: 1vw;
+}
+.text-contacts{
+    font-size: 3vw;
+    margin: 0;
+    display: inline-block;
+    
+}
+
+.phone1{
+    margin-top: 2vw;
+    color: black;
+}
+
+a.phone2{
+    color: black;
+    margin-left:2vw ;
+    margin-right:30vw ;
+}
+
+.mail{
+    color: black;
+}
+
+.phone-icon{
+    height: 2.5vw;
+    display: inline-block;
+    margin-right: 1vw;
+}
+
+img.social-handle{
+    width: 5vw;
+    margin-right: 2vw;
+}
