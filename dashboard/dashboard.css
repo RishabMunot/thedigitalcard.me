@@ -1,0 +1,69 @@
+body{
+    background-color: #efefef;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.navigation-bar{
+    position: absolute;
+    background-color: white;
+    width: 20vw;
+    height: 100vh;
+}
+
+.vertical{
+    margin: 0;
+    position: absolute;
+    width: 3vw;
+    height: 8vw;
+    border: 0;
+    background-color: #5e5294;
+    left: 0vw;
+}
+
+.horizontal{
+    margin: 0;
+    position: absolute;
+    width: 6vw;
+    left: 3vw;
+    height: 3vw;
+    border: 0;
+    background-color: #e7cae8;
+}
+
+.profile-image{
+    position: absolute;
+    width: calc(20vw*0.4);
+    height: calc(20vw*0.4);
+    top: calc(20vw*0.25);
+    left: calc(20vw*0.25);
+    object-fit: cover; 
+    border-radius: 50%;
+}
+
+.nav-items{
+    position: absolute;
+    top: calc(40vw/3);
+    left: calc(20vw*0.25);
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-item{
+    margin: 3vw 0;
+    font-weight: bold;
+    color: #5e5294;
+}
+
+.active{
+    color: #e07fe4;
+}

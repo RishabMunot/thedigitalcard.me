@@ -1,0 +1,63 @@
+.content {
+  position: absolute;
+  left: 20vw;
+  padding: 5vw;
+  width: 70vw;
+}
+
+.content > p:first-child {
+  color: #5e5294;
+  margin: 0;
+  font-size: 2.5vw;
+  font-weight: bold;
+}
+
+.tile {
+  width: 15vw;
+  display: inline-block;
+  margin-top: 4vw;
+  margin-right: 2vw;
+}
+.heading {
+  color: #5e5294;
+  font-weight: 600;
+
+}
+
+.tile > .data {
+  padding: 2vw 2vw;
+  font-size: 1.5vw;
+  color: #5e5294;
+  font-weight: bold;
+  background-color: white;
+  border-top: 5px solid #e07fe4;
+}
+.d {
+  font-size: 1vw;
+  font-weight: 400;
+}
+
+.notification{
+    position: absolute;
+    width: 20vw;
+    right: 2vw;
+    height: 50vh;
+    top : 12.5vw;
+}
+
+.notification-item{
+    background-color: white;
+    margin-bottom: 1vw;
+    padding: 1vw;
+}
+
+.notif-from{
+    color: #5e5294;
+    font-size: 1.2vw;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.notif-content{
+    font-size: 1.1vw;
+}
