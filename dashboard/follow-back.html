@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Follow Back</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="dashboard.css">
     <link rel="stylesheet" href="follow-back.css">
 </head>
 <body>
@@ -14,12 +14,59 @@
             <hr class="design vertical">
             <img src="../profile-image.jpg" alt="" class="profile-image">
             <div class="nav-items">
-                <a href=""><p class="nav-item active">Home</p></a>
-                <a href=""><p class="nav-item">Follow Back</p></a>
+                <a href=""><p class="nav-item">Home</p></a>
+                <a href=""><p class="nav-item active">Follow Back</p></a>
                 <a href=""><p class="nav-item">Cards</p></a>
                 <a href=""><p class="nav-item">Works</p></a>
             </div>
         </div>
+        <div class="follow-back">
+            <p>Follow Backs</p>
+            <div class="messaging">
+                <div class="persons">
+                    <div class="person">
+                        <img class="profile-image" src="../profile-image.jpg" alt="">
+                        <p class="name">Uthkarsh</p>
+                        <p class="last-message">Can you send me the quotation</p>
+                    </div>
+                    <div class="person">
+                        <img class="profile-image" src="../profile-image.jpg" alt="">
+                        <p class="name">Uthkarsh</p>
+                        <p class="last-message">Can you send me the quotation</p>
+                    </div>
+                    <div class="person">
+                        <img class="profile-image" src="../profile-image.jpg" alt="">
+                        <p class="name">Uthkarsh</p>
+                        <p class="last-message">Can you send me the quotation</p>
+                    </div>
+                </div>
+
+                <div class="messenger">
+                    <div class="to-info">
+                        <img class="sender" src="../profile-image.jpg" alt="">
+                        <p class="name">Uthkarsh</p>
+                    </div>
+                    <div class="messages-area">
+                        <div class="recieved-msg">
+                            <p class="msg">Hi<span class="timestamp"><br>timesatmp</span></p>
+                        </div>
+                        <div class="sent-msg">
+                            <p class="msg">Hi three i am using whatsapp <span class="timestamp"><br>timesatmp</span></p>
+
+                        </div>
+                    </div>
+                    <div class="action-buttons">
+                        <input id="type-msg" type="text" placeholder="Type your message here">
+                        <button id="send-msg"><img src="../icons/send.png" width="3vh" height="3vh" onclick="send()" alt=""></button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <script>
+        function send(x){
+            alert("send")
+        }
+    </script>
 </body>
 </html>

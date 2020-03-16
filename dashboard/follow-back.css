@@ -1,0 +1,171 @@
+.follow-back {
+    position: absolute;
+    left: 20vw;
+    width: 20vw;
+    padding: 5vw;
+  }
+  
+  .follow-back > p:first-child {
+    color: #5e5294;
+    font-size: 2vw;
+    margin: 0;
+    margin-bottom: 2vw;
+    font-weight: bold;
+  }
+
+  .messaging{
+      width: 70vw;
+      height: 79vh;
+      background-color: white;
+      border-radius: 0.5vw;
+      position: absolute;
+      border: 0.1vw solid #ccc;
+  }
+
+  .persons{
+      position: absolute;
+      top: 0vw;
+      left: 0vw;
+      height: 79vh;
+      width: 20vw;
+      border-right: 0.1vw solid #ccc;
+  }
+
+  .person{
+      position: relative;
+      width: 20vw;
+      background-color:#fff;
+      border-bottom: 0.1vw solid #ccc;
+      height: 5vw;
+  }
+
+  .person>.profile-image{
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 1vw;
+    width: 3vw;
+    height: 3vw;
+    object-fit: cover;
+}
+.person>.name{
+    position: absolute;
+    left: 5vw;
+    font-size: 1.2vw;
+}
+.person>.last-message{
+    position: absolute;
+    left: 5vw;
+    top: 2vw;
+    color: #444;
+    font-size: 1vw;
+}
+
+.to-info{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #ddd;
+    height: 7.5vh;
+    width: 50vw;
+}
+
+.to-info>.sender{
+    width: 5vh;
+    height: 5vh;
+    object-fit: cover;
+    margin: 1vh;
+    position: absolute;
+    top: 0;
+    border-radius: 50%;
+}
+
+.to-info>.name{
+    position: absolute;
+    top: 0.5vh;
+    left: 10vh;
+    font-size: 2.2vh;
+}
+
+.messages-area{
+    height: 65vh;
+    width: 50vw;
+    position: absolute;
+    overflow-y: auto;
+    top: 7.5vh;
+    right: 0;
+}
+
+.sent-msg{
+    float: right;
+    display: block;
+    width: 60%;
+}
+.recieved-msg{
+    float: left;
+    display: block;
+    width: 60%;
+}
+
+.sent-msg>p{
+    float: right;
+    background-color: #e07fe4;
+    padding: 1vh;
+    border-radius: 0.5vh;
+    margin: 1vh;
+}
+.recieved-msg>p{
+    float: left;
+    padding: 1vh;
+    background-color: #ccc;
+    border-radius: 0.5vh;
+    margin: 1vh;
+}
+
+.timestamp{
+    float: right;
+    font-size: 1vw;
+    color: #444;
+    margin: 0.3vw 0 0 0.3vw;
+}
+
+.action-buttons{
+    width: calc(50vw - 2vh);
+    background-color: #f0f0f0;
+    height: 4.5vh;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 1vh;
+}
+
+#type-msg{
+    height: 2.5vh;
+    width: calc(50vw - 12vh);
+    border-radius: 2vh;
+    border: none;
+    padding: 1vh 2vh;
+}
+
+#send-msg>img{
+    height: 3vh;
+    width: 3vh;
+    object-fit: cover;
+}
+
+#send-msg:focus{
+    outline: none;
+}
+
+#send-msg{
+    background-color: #f0f0f0;
+    border: none;
+    position: absolute;
+    top: 1.5vh;
+        
+}
+
+input[type=text]:focus {
+    border: none;
+    outline: none;
+}
